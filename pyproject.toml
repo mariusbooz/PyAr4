@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyAr4"
+version = "0.1.0"
+description = "A Python library to control the AR4 robotic arm"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Marius Booz", email = "ku277@stud.uni-heidelberg.de" }
+]
+dependencies = [
+    "numpy",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
