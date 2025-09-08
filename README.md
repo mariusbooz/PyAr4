@@ -8,8 +8,7 @@ A Python library to control the AR4 robotic arm.
 - Save/load positions
 
 ## To Come
-- Simulated mode for testing and reinforcement learning
+- Simulation mode for testing and reinforcement learning
 
 ## Installation
-```bash
-pip install -e .
+- TODO
