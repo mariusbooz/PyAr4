@@ -1,7 +1,8 @@
 from pyar4.logging.logger import Logger
-from pyar4.utils.dataclasses import *
+from pyar4.utils.dataclasses import ControllerResponse
 
-class ResponseHandler():
+
+class ResponseHandler:
     def __init__(self, logger: Logger):
         self._logger = logger
 
